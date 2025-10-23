@@ -1,0 +1,8 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "AP2210N-3.3TRG1")(type "KiCad")(uri "C:/Users/abovee/Documents/Projects/frisbee_tracker/symbols/AP2210N-3.3TRG1.kicad_sym")(options "")(descr ""))
+  (lib (name "BMI323")(type "KiCad")(uri "C:/Users/abovee/Documents/Projects/frisbee_tracker/symbols/BMI323.kicad_sym")(options "")(descr ""))
+  (lib (name "BQ24072RGTT")(type "KiCad")(uri "C:/Users/abovee/Documents/Projects/frisbee_tracker/symbols/BQ24072RGTT.kicad_sym")(options "")(descr ""))
+  (lib (name "NRF54L05-QFAA-R7")(type "KiCad")(uri "C:/Users/abovee/Documents/Projects/frisbee_tracker/symbols/NRF54L05-QFAA-R7.kicad_sym")(options "")(descr ""))
+  (lib (name "UJC-H-G-SMT-2-P6-TR")(type "KiCad")(uri "C:/Users/abovee/Documents/Projects/frisbee_tracker/symbols/UJC-H-G-SMT-2-P6-TR.kicad_sym")(options "")(descr ""))
+)
