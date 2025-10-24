@@ -5,4 +5,6 @@
   (lib (name "BQ24072RGTT")(type "KiCad")(uri "C:/Users/abovee/Documents/Projects/frisbee_tracker/symbols/BQ24072RGTT.kicad_sym")(options "")(descr ""))
   (lib (name "NRF54L05-QFAA-R7")(type "KiCad")(uri "C:/Users/abovee/Documents/Projects/frisbee_tracker/symbols/NRF54L05-QFAA-R7.kicad_sym")(options "")(descr ""))
   (lib (name "UJC-H-G-SMT-2-P6-TR")(type "KiCad")(uri "C:/Users/abovee/Documents/Projects/frisbee_tracker/symbols/UJC-H-G-SMT-2-P6-TR.kicad_sym")(options "")(descr ""))
+  (lib (name "BSS138")(type "KiCad")(uri "C:/Users/abovee/Documents/Projects/frisbee_tracker/symbols/BSS138.kicad_sym")(options "")(descr ""))
+  (lib (name "RFANT3216120A5T")(type "KiCad")(uri "C:/Users/abovee/Documents/Projects/frisbee_tracker/symbols/RFANT3216120A5T.kicad_sym")(options "")(descr ""))
 )
