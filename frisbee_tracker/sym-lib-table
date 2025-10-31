@@ -7,4 +7,5 @@
   (lib (name "UJC-H-G-SMT-2-P6-TR")(type "KiCad")(uri "C:/Users/abovee/Documents/Projects/frisbee_tracker/symbols/UJC-H-G-SMT-2-P6-TR.kicad_sym")(options "")(descr ""))
   (lib (name "BSS138")(type "KiCad")(uri "C:/Users/abovee/Documents/Projects/frisbee_tracker/symbols/BSS138.kicad_sym")(options "")(descr ""))
   (lib (name "RFANT3216120A5T")(type "KiCad")(uri "C:/Users/abovee/Documents/Projects/frisbee_tracker/symbols/RFANT3216120A5T.kicad_sym")(options "")(descr ""))
+  (lib (name "FTSH-103-01-L-D")(type "KiCad")(uri "C:/Users/abovee/Documents/Projects/frisbee_tracker/symbols/FTSH-103-01-L-D.kicad_sym")(options "")(descr ""))
 )

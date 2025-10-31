@@ -2552,6 +2552,212 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "FTSH-103-01-L-D:FTSH-103-01-L-D"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -8.12 6.196 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "FTSH-103-01-L-D"
+				(at -7.62 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "FTSH-103-01-L-D:SAMTEC_FTSH-103-01-L-D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "B"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "SAMTEC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "FTSH-103-01-L-D_0_0"
+				(rectangle
+					(start -7.62 -5.08)
+					(end 7.62 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -12.7 2.54 0)
+					(length 5.08)
+					(name "01"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "01"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 0 0)
+					(length 5.08)
+					(name "03"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "03"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -2.54 0)
+					(length 5.08)
+					(name "05"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "05"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 2.54 180)
+					(length 5.08)
+					(name "02"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "02"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "04"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "04"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -2.54 180)
+					(length 5.08)
+					(name "06"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "06"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers
 				(hide yes)
@@ -4093,463 +4299,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "dk_Rectangular-Connectors-Headers-Male-Pins:FTSH-105-01-L-DV-K"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at -2.54 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "FTSH-105-01-L-DV-K"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "digikey-footprints:PinHeader_2x5_P1.27_SMD"
-				(at 5.08 5.08 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://suddendocs.samtec.com/prints/ftsh-1xx-xx-xxx-dv-xxx-xxx-mkt.pdf"
-				(at 5.08 7.62 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "CONN HEADER SMD 10POS 1.27MM"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Digi-Key_PN" "SAM8799-ND"
-				(at 5.08 10.16 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "MPN" "FTSH-105-01-L-DV-K"
-				(at 5.08 12.7 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Category" "Connectors, Interconnects"
-				(at 5.08 15.24 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Family" "Rectangular Connectors - Headers, Male Pins"
-				(at 5.08 17.78 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "DK_Datasheet_Link" "http://suddendocs.samtec.com/prints/ftsh-1xx-xx-xxx-dv-xxx-xxx-mkt.pdf"
-				(at 5.08 20.32 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "DK_Detail_Page" "/product-detail/en/samtec-inc/FTSH-105-01-L-DV-K/SAM8799-ND/1875039"
-				(at 5.08 22.86 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "CONN HEADER SMD 10POS 1.27MM"
-				(at 5.08 25.4 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Samtec Inc."
-				(at 5.08 27.94 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Status" "Active"
-				(at 5.08 30.48 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "SAM8799-ND FTSH"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "FTSH-105-01-L-DV-K_1_1"
-				(rectangle
-					(start -2.54 6.35)
-					(end 2.54 -6.35)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.524 5.334)
-					(end -1.016 4.826)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.524 2.794)
-					(end -1.016 2.286)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.524 0.254)
-					(end -1.016 -0.254)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.524 -2.286)
-					(end -1.016 -2.794)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.524 -4.826)
-					(end -1.016 -5.334)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 1.016 5.334)
-					(end 1.524 4.826)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 1.016 2.794)
-					(end 1.524 2.286)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 1.016 0.254)
-					(end 1.524 -0.254)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 1.016 -2.286)
-					(end 1.524 -2.794)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 1.016 -4.826)
-					(end 1.524 -5.334)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at -5.08 5.08 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 5.08 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -5.08 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -4749,10 +4498,10 @@
 		(uuid "027997b5-907f-480a-a75e-12ae96e78e54")
 	)
 	(junction
-		(at 168.91 114.3)
+		(at 121.92 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "181ac245-7f4f-4503-a6d1-d3db90549dfe")
+		(uuid "04a4e630-8940-4f19-b91f-4c7d48ae36ec")
 	)
 	(junction
 		(at 24.13 119.38)
@@ -4773,6 +4522,12 @@
 		(uuid "28f9db14-dfbb-43fa-b975-b1ef98c84aae")
 	)
 	(junction
+		(at 168.91 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29e541ac-950c-49a8-9630-c912020b1e9b")
+	)
+	(junction
 		(at 64.77 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4789,6 +4544,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "45a44058-d0f2-4857-944e-0d14b0491483")
+	)
+	(junction
+		(at 176.53 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "506df102-cdfc-4d3b-b3fd-07cbd6cb57ab")
 	)
 	(junction
 		(at 168.91 92.71)
@@ -4837,12 +4598,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6e93b7a4-4091-4c26-9257-dddb99cac37e")
-	)
-	(junction
-		(at 176.53 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7a45015f-add7-4002-a7f3-05914aa2d574")
 	)
 	(junction
 		(at 111.76 40.64)
@@ -4941,12 +4696,6 @@
 		(uuid "bec3ed13-6b0a-4223-9fb7-e86db5dee98e")
 	)
 	(junction
-		(at 123.19 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cc6dac61-06de-4f82-a99e-28ddb3d17121")
-	)
-	(junction
 		(at 26.67 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4963,12 +4712,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d0277cd3-fa36-41ef-b051-8db77864404c")
-	)
-	(junction
-		(at 111.76 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dbadab54-4fe6-4bbb-960c-b04abf68338c")
 	)
 	(junction
 		(at 64.77 71.12)
@@ -5055,6 +4798,12 @@
 		(uuid "f9d8c3f4-830c-4b13-abc3-68fe6667d1fe")
 	)
 	(junction
+		(at 111.76 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fbc8e805-e2f2-419d-9bfd-078565e4efdb")
+	)
+	(junction
 		(at 171.45 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5073,10 +4822,6 @@
 		(uuid "1ec40665-66f2-4699-9bd0-eb6ed132a150")
 	)
 	(no_connect
-		(at 152.4 66.04)
-		(uuid "27b66249-75ca-410c-960c-1f0c22ed5b26")
-	)
-	(no_connect
 		(at 110.49 114.3)
 		(uuid "2e4e1ed3-5cbb-4051-97c4-0ef0725138d9")
 	)
@@ -5087,10 +4832,6 @@
 	(no_connect
 		(at 90.17 71.12)
 		(uuid "39c5e4c5-1ee7-4792-9e8e-da538d57ea1d")
-	)
-	(no_connect
-		(at 142.24 68.58)
-		(uuid "52c81529-796e-4207-af79-ecfe020646fd")
 	)
 	(no_connect
 		(at 44.45 111.76)
@@ -5113,16 +4854,8 @@
 		(uuid "7c6672f4-48a4-405d-ac79-d3e3a8319f64")
 	)
 	(no_connect
-		(at 152.4 68.58)
-		(uuid "8fef3bd0-7d91-4cd5-853b-070d2c47d170")
-	)
-	(no_connect
 		(at 110.49 119.38)
 		(uuid "9b89768d-9946-4739-b560-74e7141fa4de")
-	)
-	(no_connect
-		(at 142.24 66.04)
-		(uuid "9bd1e797-20ff-4e7f-8079-12c9a6522fb1")
 	)
 	(no_connect
 		(at 87.63 71.12)
@@ -5184,6 +4917,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 58.42) (xy 111.76 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0692f69e-61e7-43f6-9a9a-e3513e488d00")
+	)
+	(wire
+		(pts
 			(xy 104.14 17.78) (xy 111.76 17.78)
 		)
 		(stroke
@@ -5211,16 +4954,6 @@
 			(type default)
 		)
 		(uuid "0dbf1d9e-bca9-45e4-b0cc-5988e4997ed4")
-	)
-	(wire
-		(pts
-			(xy 72.39 204.47) (xy 72.39 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ef4e36b-9ae9-44a0-9ec2-8e3e5207c481")
 	)
 	(wire
 		(pts
@@ -5304,6 +5037,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 204.47) (xy 74.93 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13285497-4c6d-494e-b77f-0ccb2e8063f2")
+	)
+	(wire
+		(pts
 			(xy 129.54 104.14) (xy 129.54 101.6)
 		)
 		(stroke
@@ -5351,6 +5094,16 @@
 			(type default)
 		)
 		(uuid "14a6b449-de5d-4831-b45c-dd0994fe57ac")
+	)
+	(wire
+		(pts
+			(xy 111.76 58.42) (xy 130.81 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14b1e80b-dbb2-4fc1-88ed-7b683d9442be")
 	)
 	(wire
 		(pts
@@ -5534,7 +5287,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 113.03) (xy 176.53 113.03)
+			(xy 154.94 113.03) (xy 168.91 113.03)
 		)
 		(stroke
 			(width 0)
@@ -5624,13 +5377,13 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 172.72) (xy 74.93 201.93)
+			(xy 121.92 104.14) (xy 129.54 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "42718716-c371-47cb-b602-05ddd81e6daf")
+		(uuid "4252a8a3-3abd-44c2-83f1-aaad5f8f42cb")
 	)
 	(wire
 		(pts
@@ -5661,16 +5414,6 @@
 			(type default)
 		)
 		(uuid "437a4365-de2f-4e12-a3db-91800dc87ec3")
-	)
-	(wire
-		(pts
-			(xy 160.02 60.96) (xy 152.4 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44481f59-a0c4-49af-b7d6-77545aa90eb5")
 	)
 	(wire
 		(pts
@@ -5751,6 +5494,16 @@
 			(type default)
 		)
 		(uuid "506a9bce-cfd8-4f21-8d9b-53522492a037")
+	)
+	(wire
+		(pts
+			(xy 168.91 113.03) (xy 257.81 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52814a0f-36c9-496f-8f64-a6732c0e0063")
 	)
 	(wire
 		(pts
@@ -5864,6 +5617,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 58.42) (xy 162.56 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b32c6f7-2b1f-43b7-a1ed-dd1ff9fe670c")
+	)
+	(wire
+		(pts
 			(xy 185.42 41.91) (xy 185.42 45.72)
 		)
 		(stroke
@@ -5911,16 +5674,6 @@
 			(type default)
 		)
 		(uuid "5f21d335-1d4a-4fed-b7d6-551d61fb5f25")
-	)
-	(wire
-		(pts
-			(xy 74.93 201.93) (xy 154.94 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f52e008-f5d7-489f-8386-0931320de031")
 	)
 	(wire
 		(pts
@@ -5984,16 +5737,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 58.42) (xy 162.56 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65a6b502-61e5-4ba2-bbd7-affd1a8b5e07")
-	)
-	(wire
-		(pts
 			(xy 154.94 109.22) (xy 154.94 105.41)
 		)
 		(stroke
@@ -6034,7 +5777,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 62.23) (xy 123.19 104.14)
+			(xy 121.92 62.23) (xy 121.92 104.14)
 		)
 		(stroke
 			(width 0)
@@ -6154,16 +5897,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 113.03) (xy 257.81 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79d5f86a-b4f0-4e7b-a8d8-7f968d82078a")
-	)
-	(wire
-		(pts
 			(xy 193.04 55.88) (xy 193.04 41.91)
 		)
 		(stroke
@@ -6214,13 +5947,13 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 114.3) (xy 168.91 114.3)
+			(xy 168.91 106.68) (xy 168.91 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7cb341e8-ce10-47a3-ad9c-1fdaf9528615")
+		(uuid "7d37d027-1180-4591-a594-0bf3e83ded48")
 	)
 	(wire
 		(pts
@@ -6244,6 +5977,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 204.47) (xy 157.48 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8191ca4f-eb3b-470d-b65d-24b47eb1844c")
+	)
+	(wire
+		(pts
 			(xy 228.6 55.88) (xy 228.6 102.87)
 		)
 		(stroke
@@ -6261,16 +6004,6 @@
 			(type default)
 		)
 		(uuid "83e4bcfc-0975-4553-8e7b-fdca09119a3a")
-	)
-	(wire
-		(pts
-			(xy 123.19 104.14) (xy 129.54 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87e6be65-0335-4b30-bf3f-829db6b1f386")
 	)
 	(wire
 		(pts
@@ -6324,7 +6057,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 58.42) (xy 111.76 69.85)
+			(xy 111.76 49.53) (xy 111.76 58.42)
 		)
 		(stroke
 			(width 0)
@@ -6351,16 +6084,6 @@
 			(type default)
 		)
 		(uuid "91ab7df1-273f-44ed-b3dd-03fb22c98bc3")
-	)
-	(wire
-		(pts
-			(xy 111.76 49.53) (xy 111.76 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92fc1cfa-2fac-4870-b732-5d83e968d9ce")
 	)
 	(wire
 		(pts
@@ -6444,7 +6167,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 114.3) (xy 157.48 114.3)
+			(xy 157.48 114.3) (xy 176.53 114.3)
 		)
 		(stroke
 			(width 0)
@@ -6534,17 +6257,17 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 63.5) (xy 152.4 63.5)
+			(xy 176.53 114.3) (xy 260.35 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a4f38a19-26b4-4e2a-be82-07872a2eba44")
+		(uuid "a3c20798-a901-47b3-8ff4-3a61851f81a6")
 	)
 	(wire
 		(pts
-			(xy 95.25 62.23) (xy 123.19 62.23)
+			(xy 95.25 62.23) (xy 121.92 62.23)
 		)
 		(stroke
 			(width 0)
@@ -6724,6 +6447,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 106.68) (xy 176.53 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b494c5f1-3100-4227-99c8-4f0a63d787ba")
+	)
+	(wire
+		(pts
 			(xy 246.38 68.58) (xy 271.78 68.58)
 		)
 		(stroke
@@ -6754,16 +6487,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 204.47) (xy 72.39 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7ed0618-a955-4884-be9f-14ab1be2af63")
-	)
-	(wire
-		(pts
 			(xy 44.45 96.52) (xy 41.91 96.52)
 		)
 		(stroke
@@ -6771,16 +6494,6 @@
 			(type default)
 		)
 		(uuid "b837f7f6-a95e-415f-804b-ea3b2a19d94f")
-	)
-	(wire
-		(pts
-			(xy 176.53 106.68) (xy 176.53 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba8d65e7-31f3-41ba-8aa0-5656eae7a09a")
 	)
 	(wire
 		(pts
@@ -6821,26 +6534,6 @@
 			(type default)
 		)
 		(uuid "bca79745-f2ed-47b9-a790-2acff5a2a4fc")
-	)
-	(wire
-		(pts
-			(xy 111.76 58.42) (xy 142.24 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bcb9a95c-6770-4e58-88aa-2d23b91e37fc")
-	)
-	(wire
-		(pts
-			(xy 168.91 106.68) (xy 168.91 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd4008dc-6616-42a0-9c7c-6f4c1b4df07b")
 	)
 	(wire
 		(pts
@@ -6901,6 +6594,16 @@
 			(type default)
 		)
 		(uuid "c295218f-13e0-4136-ab62-31d5ebc9a362")
+	)
+	(wire
+		(pts
+			(xy 72.39 172.72) (xy 72.39 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2afc2a7-f25a-4fa3-938c-11c0542e0fdd")
 	)
 	(wire
 		(pts
@@ -7304,6 +7007,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 63.5) (xy 157.48 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3a368fd-59d1-4886-bd55-749be9acf955")
+	)
+	(wire
+		(pts
 			(xy 110.49 106.68) (xy 62.23 106.68)
 		)
 		(stroke
@@ -7384,6 +7097,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 201.93) (xy 154.94 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f91c4008-540c-47b3-abe0-e0c619c15314")
+	)
+	(wire
+		(pts
 			(xy 64.77 172.72) (xy 64.77 199.39)
 		)
 		(stroke
@@ -7391,6 +7114,16 @@
 			(type default)
 		)
 		(uuid "fa347dfb-c814-4f45-9e4d-6003ffa06997")
+	)
+	(wire
+		(pts
+			(xy 156.21 60.96) (xy 160.02 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa965bc1-9e7f-403a-a893-fa76cc9379df")
 	)
 	(wire
 		(pts
@@ -7464,7 +7197,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 104.14) (xy 123.19 104.14)
+			(xy 110.49 104.14) (xy 121.92 104.14)
 		)
 		(stroke
 			(width 0)
@@ -8373,7 +8106,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 142.24 63.5 270)
+		(at 130.81 63.5 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8382,7 +8115,7 @@
 		(fields_autoplaced yes)
 		(uuid "18d4ca9f-f081-4886-9099-77406f4fd047")
 		(property "Reference" "#PWR034"
-			(at 135.89 63.5 0)
+			(at 124.46 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8391,7 +8124,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 138.43 63.4999 90)
+			(at 127 63.4999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8400,7 +8133,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 63.5 0)
+			(at 130.81 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8409,7 +8142,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 63.5 0)
+			(at 130.81 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8418,7 +8151,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 142.24 63.5 0)
+			(at 130.81 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11473,7 +11206,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 142.24 60.96 270)
+		(at 130.81 60.96 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11482,7 +11215,7 @@
 		(fields_autoplaced yes)
 		(uuid "7b2f84a4-ebef-4784-9709-e1da387b3123")
 		(property "Reference" "#PWR033"
-			(at 135.89 60.96 0)
+			(at 124.46 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11491,7 +11224,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 138.43 60.9599 90)
+			(at 127 60.9599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11500,7 +11233,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 60.96 0)
+			(at 130.81 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11509,7 +11242,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 60.96 0)
+			(at 130.81 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11518,7 +11251,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 142.24 60.96 0)
+			(at 130.81 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14358,6 +14091,117 @@
 		)
 	)
 	(symbol
+		(lib_id "FTSH-103-01-L-D:FTSH-103-01-L-D")
+		(at 143.51 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e033939d-080b-48bd-aad1-572169d70a56")
+		(property "Reference" "J2"
+			(at 143.51 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FTSH-103-01-L-D"
+			(at 143.51 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:FTSH-103-01-L-D"
+			(at 143.51 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "B"
+			(at 143.51 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "SAMTEC"
+			(at 143.51 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 143.51 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "05"
+			(uuid "050ac16d-c649-47d7-9a78-ac74be71b36d")
+		)
+		(pin "06"
+			(uuid "b32170dc-16e6-4804-9f80-41add5edc205")
+		)
+		(pin "01"
+			(uuid "28d16ac2-7f83-4fa5-9641-94eff409f2a2")
+		)
+		(pin "03"
+			(uuid "2a4e55cf-984d-443d-8767-cae1e1363de2")
+		)
+		(pin "02"
+			(uuid "6efd2cac-f974-4279-a73b-1109f8429e86")
+		)
+		(pin "04"
+			(uuid "f638be60-bad1-4137-bf3c-34eae46f2ffc")
+		)
+		(instances
+			(project ""
+				(path "/41632eae-6661-4438-952a-ee2864abdb5b"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 265.43 73.66 90)
 		(unit 1)
@@ -14822,190 +14666,6 @@
 			(project ""
 				(path "/41632eae-6661-4438-952a-ee2864abdb5b"
 					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "dk_Rectangular-Connectors-Headers-Male-Pins:FTSH-105-01-L-DV-K")
-		(at 147.32 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ed405835-8bc6-4004-bcac-76f6cba4082c")
-		(property "Reference" "J2"
-			(at 147.32 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FTSH-105-01-L-DV-K"
-			(at 147.32 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:FTSH-105-01-L-DV-K"
-			(at 152.4 58.42 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://suddendocs.samtec.com/prints/ftsh-1xx-xx-xxx-dv-xxx-xxx-mkt.pdf"
-			(at 152.4 55.88 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "CONN HEADER SMD 10POS 1.27MM"
-			(at 147.32 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digi-Key_PN" "SAM8799-ND"
-			(at 152.4 53.34 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MPN" "FTSH-105-01-L-DV-K"
-			(at 152.4 50.8 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Category" "Connectors, Interconnects"
-			(at 152.4 48.26 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Family" "Rectangular Connectors - Headers, Male Pins"
-			(at 152.4 45.72 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "DK_Datasheet_Link" "http://suddendocs.samtec.com/prints/ftsh-1xx-xx-xxx-dv-xxx-xxx-mkt.pdf"
-			(at 152.4 43.18 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "DK_Detail_Page" "/product-detail/en/samtec-inc/FTSH-105-01-L-DV-K/SAM8799-ND/1875039"
-			(at 152.4 40.64 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "CONN HEADER SMD 10POS 1.27MM"
-			(at 152.4 38.1 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samtec Inc."
-			(at 152.4 35.56 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
-			(at 152.4 33.02 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "14aef3c0-6e80-4146-b4ad-80b5796335aa")
-		)
-		(pin "7"
-			(uuid "17d5cbde-746f-45cc-bb88-4f452730c509")
-		)
-		(pin "3"
-			(uuid "f704818f-d14e-4fd9-84a3-6521f0c76466")
-		)
-		(pin "4"
-			(uuid "0ba36e47-79fa-4100-9238-e333e33a245f")
-		)
-		(pin "6"
-			(uuid "1e37bb56-ead6-4da4-9cc8-4290f3be727f")
-		)
-		(pin "8"
-			(uuid "23b67927-bb10-45ca-997c-ad8847354242")
-		)
-		(pin "2"
-			(uuid "36d6e411-b04e-4d64-8066-89d571317739")
-		)
-		(pin "10"
-			(uuid "5acc18fd-8cdb-4a08-9c49-f378a3a856ef")
-		)
-		(pin "5"
-			(uuid "7af3f71b-7a00-4cb1-928f-e0227d37a4d7")
-		)
-		(pin "9"
-			(uuid "cf985ae7-5100-48dd-a230-125a2dffaf33")
-		)
-		(instances
-			(project ""
-				(path "/41632eae-6661-4438-952a-ee2864abdb5b"
-					(reference "J2")
 					(unit 1)
 				)
 			)
