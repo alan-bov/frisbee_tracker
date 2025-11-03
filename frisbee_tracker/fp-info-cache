@@ -1,4 +1,4 @@
-26400338998009789
+26402100928920608
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -105055,6 +105055,13 @@ Crystal or Oscillator
 0
 4
 4
+footprints
+FTSH-103-01-L-D
+
+
+0
+6
+6
 footprints
 FTSH-105-01-L-DV-K
 translated Allegro footprint
