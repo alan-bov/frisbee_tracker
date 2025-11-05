@@ -1,4 +1,4 @@
-26402100928920608
+26405625501466860
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -105101,6 +105101,20 @@ footprints
 RFANT3216120A5T
 
 RFANT3216120A5T 
+0
+2
+2
+footprints
+SMD26PL-TP
+SOD123
+Schottky Diode
+0
+2
+2
+footprints
+SS14
+
+SS14 
 0
 2
 2
